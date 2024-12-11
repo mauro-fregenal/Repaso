@@ -5,6 +5,7 @@ import Contador from './Components/Contador'
 import SaludoDinamico from './Components/SaludoDinamico'
 import MensajeConRetraso from './Components/MensajeConRetraso'
 import BuscardorDinamico from './Components/BuscadorDinamico'
+import ListaDinamica from './Components/ListaDinamica'
 
 function App() {
   
@@ -12,7 +13,7 @@ function App() {
   return (
     <>
       <div>
-        <BuscardorDinamico/>
+        <ListaDinamica/>
       </div>
     </>
   )
